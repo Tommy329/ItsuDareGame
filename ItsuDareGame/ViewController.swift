@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet var doshitaLabel : UILabel!
     
     var index : Int = 0
-    let itsuArray : [String] = ["今","１０日前","５年後","１００年前"]
+    let itsuArray : [String] = ["今","１０日前","昨日","１００年前"]
     let dokodeArray : [String] = ["山奥で","学校で","海底で","サウジアラジアで"]
     let daregaArray : [String] = ["僕が","総理大臣が","先生が","猿が"]
     let doshitaArray : [String] = ["叫んだ","演説した","怒った","踊った"]
