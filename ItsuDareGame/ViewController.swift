@@ -32,7 +32,20 @@ class ViewController: UIViewController {
         changeButton.layer.cornerRadius = 35
         resetBotton.layer.cornerRadius = 35
         rundomBotton.layer.cornerRadius = 35
+        
+        itsuLabel.layer.cornerRadius = 12
+        dokodeLabel.layer.cornerRadius = 12
+        daregaLabel.layer.cornerRadius = 12
+        doshitaLabel.layer.cornerRadius = 12
+        
+        itsuLabel.clipsToBounds = true
+        dokodeLabel.clipsToBounds = true
+        daregaLabel.clipsToBounds = true
+        doshitaLabel.clipsToBounds = true
+        
+        
         }
+    
     
     @IBAction func change() {
         itsuLabel.text = itsuArray[index]
