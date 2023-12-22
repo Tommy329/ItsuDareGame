@@ -79,7 +79,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1g-az-SBC">
-                                <rect key="frame" x="16" y="636" width="169" height="74"/>
+                                <rect key="frame" x="16" y="636" width="169" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -90,7 +90,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uN-Nc-aif">
-                                <rect key="frame" x="209" y="636" width="168" height="74"/>
+                                <rect key="frame" x="209" y="636" width="168" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -101,7 +101,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pU-Rd-0OV">
-                                <rect key="frame" x="16" y="726" width="361" height="66"/>
+                                <rect key="frame" x="16" y="726" width="361" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -116,10 +116,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="changeButton" destination="5uN-Nc-aif" id="ksg-qo-U0R"/>
                         <outlet property="daregaLabel" destination="1Ro-yk-nBh" id="g6v-lT-853"/>
                         <outlet property="dokodeLabel" destination="JQv-Sc-Xwe" id="gz4-2f-0dK"/>
                         <outlet property="doshitaLabel" destination="akK-Pm-2q2" id="uzb-em-984"/>
                         <outlet property="itsuLabel" destination="4QQ-4a-caG" id="fXa-fR-IzQ"/>
+                        <outlet property="resetBotton" destination="b1g-az-SBC" id="qcS-ig-aa7"/>
+                        <outlet property="rundomBotton" destination="4pU-Rd-0OV" id="B8t-Lp-vOH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

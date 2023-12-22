@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     @IBOutlet var daregaLabel : UILabel!
     @IBOutlet var doshitaLabel : UILabel!
     
+    @IBOutlet var changeButton : UIButton!
+    @IBOutlet var resetBotton : UIButton!
+    @IBOutlet var rundomBotton : UIButton!
+    
+    
     var index : Int = 0
     let itsuArray : [String] = ["今","１０日前","昨日","１００年前"]
     let dokodeArray : [String] = ["山奥で","学校で","海底で","サウジアラジアで"]
@@ -22,7 +27,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
+        
+        
+        changeButton.layer.cornerRadius = 35
+        resetBotton.layer.cornerRadius = 35
+        rundomBotton.layer.cornerRadius = 35
+        }
     
     @IBAction func change() {
         itsuLabel.text = itsuArray[index]
