@@ -54,7 +54,7 @@ class ViewController: UIViewController {
         doshitaLabel.text = doshitaArray[index]
         
         
-        if index == 4{
+        if index == 4 {
             index = 0
         } else {
             index = index+1
