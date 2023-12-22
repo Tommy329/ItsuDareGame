@@ -19,10 +19,10 @@ class ViewController: UIViewController {
     
     
     var index : Int = 0
-    let itsuArray : [String] = ["今","１０日前","昨日","１００年前"]
-    let dokodeArray : [String] = ["山奥で","学校で","海底で","サウジアラジアで"]
-    let daregaArray : [String] = ["僕が","総理大臣が","先生が","猿が"]
-    let doshitaArray : [String] = ["叫んだ","演説した","怒った","踊った"]
+    let itsuArray : [String] = ["今","１０日前","昨日","１００年前","去年"]
+    let dokodeArray : [String] = ["山奥で","学校で","海底で","サウジアラジアで","家で"]
+    let daregaArray : [String] = ["僕が","総理大臣が","先生が","猿が","友達が"]
+    let doshitaArray : [String] = ["叫んだ","演説した","怒った","踊った","歌った"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,7 +54,7 @@ class ViewController: UIViewController {
         doshitaLabel.text = doshitaArray[index]
         
         
-        if index == 3{
+        if index == 4{
             index = 0
         } else {
             index = index+1
@@ -71,10 +71,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func random() {
-        let itsuIndex = Int.random(in: 0...3)
-        let daregaIndex  = Int.random(in: 0...3)
-        let dokodeIndex  = Int.random(in: 0...3)
-        let doshitaIndex  = Int.random(in: 0...3)
+        let itsuIndex = Int.random(in: 0...4)
+        let daregaIndex  = Int.random(in: 0...4)
+        let dokodeIndex  = Int.random(in: 0...4)
+        let doshitaIndex  = Int.random(in: 0...4)
         
         itsuLabel.text = itsuArray[itsuIndex]
         daregaLabel.text = daregaArray[daregaIndex]
