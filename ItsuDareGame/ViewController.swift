@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     var index : Int = 0
     let itsuArray : [String] = ["今","１０日前","昨日","１００年前","去年","一週間前","江戸時代"]
     let dokodeArray : [String] = ["山奥で","学校で","海底で","サウジアラジアで","家で","火星で","ディズニーランドで"]
-    let daregaArray : [String] = ["僕が","総理大臣が","先生が","猿が","米津玄師が","山姥が","宇宙人が"]
+    let daregaArray : [String] = ["僕が","岸田総理が","先生が","ゴリラが","米津玄師が","山姥が","宇宙人が"]
     let doshitaArray : [String] = ["叫んだ","演説した","怒った","踊った","歌った","飛んだ","泣いた"]
 
     override func viewDidLoad() {
